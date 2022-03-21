@@ -5,3 +5,104 @@
   min-width: 100%;
   min-height: 100%;
   }
+
+  .schedule-wrap {
+    padding: 40px;
+    background: #27835d;
+    max-width: 900px;
+    position: relative;
+    z-index: 9;
+    color: white;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .schedule-wrap:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: inherit;
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-12deg, 0deg);
+    -ms-transform: skew(-12deg, 0deg);
+    transform: skew(-12deg, 0deg);
+  }
+  .schedule-wrap strong {
+    color: #fff;
+    font-weight: bold;
+  }
+  .schedule-wrap .cta a {
+    text-align: center;
+    background: #f89d13;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .schedule-wrap .cta a .arrow {
+    font-size: 1.2rem;
+    position: relative;
+    top: 3px;
+  }
+  
+  .schedule-wrap2 {
+    padding: 25px;
+    background: #27835d;
+    border-radius: 0 0 0 20px;
+    width: 50%;
+    position: absolute;
+    margin-top: 30rem;
+    z-index: 9;
+    right: 0;
+    color: white;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  @media (max-width: 991.98px) {
+    .schedule-wrap2 {
+      width: 90%;
+    }
+  }
+  .schedule-wrap2:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: inherit;
+    border-radius: 20px;
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transform: skew(12deg, 0deg);
+    -ms-transform: skew(12deg, 0deg);
+    transform: skew(12deg, 0deg);
+  }
+  .schedule-wrap2 strong {
+    color: #fff;
+    font-weight: bold;
+  }
+  .schedule-wrap2 .cta a {
+    text-align: center;
+    text-size-adjust: 18px;
+    background: #27835d;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .schedule-wrap2 .cta a:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .schedule-wrap2 .cta a .arrow {
+    font-size: 1.2rem;
+    position: relative;
+    top: 3px;
+  }
