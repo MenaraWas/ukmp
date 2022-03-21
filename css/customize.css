@@ -6,6 +6,31 @@
   min-height: 100%;
 }
 
+/* TIM SECTION */
+.person img {
+  max-width: 170px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  background-color: #ddfff2;
+}
+
+.person .position {
+  color: #ccc;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.person h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.person p {
+  font-size: 16px;
+}
+
 .schedule-wrap {
   padding: 40px;
   background: #27835d;
@@ -57,7 +82,7 @@
   border-radius: 0 0 0 20px;
   width: 50%;
   position: absolute;
-  margin-top: 30rem;
+  margin-top: 5rem;
   z-index: 9;
   right: 0;
   color: white;
@@ -112,5 +137,9 @@
   font-size: 1.2rem;
   position: relative;
   top: 3px;
+}
+
+.banner-join {
+  margin-top: 15rem;
 }
 /*# sourceMappingURL=customize.css.map */
